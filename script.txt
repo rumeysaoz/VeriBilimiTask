@@ -1,5 +1,5 @@
-//THE SCRIPT OF THE FLIGHT TABLE
-
+##THE SCRIPT OF THE FLIGHT TABLE
+```
 create table flights_table (
     flight_id int,
     model_id int,
@@ -15,10 +15,11 @@ create table flights_table (
     mission_success varchar
 
 )
+```
 
 
-//THE SCRIPT OF THE GPS TABLE
-
+##THE SCRIPT OF THE GPS TABLE
+```
 create table gps_table (
     flight_id int,
     gps_time timestamp,
@@ -27,10 +28,10 @@ create table gps_table (
     alt int
 
 )
+```
 
-
-//THE SCRIPT OF THE ANGULAR_VELOCITY TABLE
-
+##THE SCRIPT OF THE ANGULAR_VELOCITY TABLE
+```
 create table angular_velocity_table (
     flight_id int,
     gps_time timestamp,
@@ -39,5 +40,5 @@ create table angular_velocity_table (
     xyz2 int,
     gps_type varchar
 )
-
+```
 
