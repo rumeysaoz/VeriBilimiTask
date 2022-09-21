@@ -1,10 +1,10 @@
 # VeriBilimiTask
 
 ## Table of contents
-* [General info and Technologies](#general-info-and-technologies)
+* [General Info and Technologies](#general-info-and-technologies)
 * [Setup](#setup)
 
-## General info and Technologies
+## General Info and Technologies
 First of all, I used the PostgreSQL database and the pgAdmin tool. 
 I created my tables and types of data in order to be able to import the data of the files with the extension ".csv" given to me to my database
 
